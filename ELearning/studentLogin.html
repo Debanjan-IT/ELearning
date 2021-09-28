@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Online Academy</title>
+</head>
+<body>
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a class="active" href="studentLogin.html">Student Portal</a>
+        <a href="teacherLogin.html">Teacher Portal</a>
+    </div>
+    <div class="home">
+        <h1 class="title">E-Learning Website</h1>
+        <h2>Student Login Page</h2>
+        <form action="sLogin.php" method="post">
+            <input class="input" type="text" name="username" placeholder="Enter Username." required>
+            <input class="input" type="password" name="password" placeholder="Enter Password." required><br>
+            <input class="button" type="submit" value="LOGIN">
+        </form>
+        <h3>Not Registered? <a href="studentRegister.html">Click Here...</a></h3>
+    </div>
+</body>
+</html>
